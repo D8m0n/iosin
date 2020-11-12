@@ -1,0 +1,33 @@
+#!/bin/sh
+clear
+su
+apt update && apt upgrade
+sleep 2
+clear
+apt install nano sudo git ncurses python python3 toilet figlet
+clear
+toilet -F border "4ios" --metal
+sleep 3
+echo " Ready?"
+sleep 2
+clear
+tput setaf 200;echo  "              3 "
+sleep 1
+clear
+tput setaf 208;echo "           2"
+sleep 1
+clear
+tput setaf 32;echo " 1"
+sleep 1
+clear
+tput setaf 43;figlet -r  "jailbroken"
+sleep 3
+cd
+apt update && apt upgrade
+sleep 3
+clear
+git clne https://github.com/D8m0n/zsh;cd zsh;bash syntax
+sleep 2
+clear
+bash zsh
+
